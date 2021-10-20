@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .sidebar-icon {
+    @apply relative flex justify-center items-center text-white w-12 h-12 bg-discord-shade-dark mx-auto mt-1 mb-1 rounded-3xl group-hover:rounded-xl group-hover:bg-discord-blue-default group-hover:text-discord-shade-grayLight transition-all duration-300 ease-in-out cursor-pointer;
+  }
+
+  .sidebar-icon .notif-badge {
+    @apply absolute flex items-center justify-center -bottom-1 -right-1 px-1 h-6 bg-red-500 rounded-full leading-none font-bold text-xs border-4 border-discord-shade-darkest;
+  }
+
+  .sidebar-tooltip {
+    @apply absolute px-3 py-2 ml-2 min-w-max left-[4rem] bg-discord-shade-dark rounded-lg transition-all duration-100 scale-0 origin-left;
+  }
+
+  .sidebar-wrapper {
+    @apply inline-flex w-full;
+  }
+
+  .sidebar-wrapper .sidebar-pill {
+    @apply flex flex-col justify-center;
+  }
+
+  .pill {
+    @apply absolute bg-white w-1 h-2 rounded-r-lg group-hover:h-8 transition-all duration-300 ease-in-out cursor-pointer;
+  }
 }
