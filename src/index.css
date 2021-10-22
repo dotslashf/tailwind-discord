@@ -1,14 +1,16 @@
+@import url('fonts/whitney/style.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
   .sidebar-icon {
-    @apply relative flex justify-center items-center text-white w-14 h-14 bg-discord-shade-dark mx-auto mt-1 mb-1 rounded-[2rem] group-hover:rounded-xl group-hover:bg-discord-blue-default group-hover:text-discord-shade-grayLight transition-all duration-300 ease-in-out cursor-pointer;
+    @apply relative flex justify-center items-center text-white w-[50px] h-[50px] bg-discord-shade-dark mx-auto mt-1 mb-1 rounded-3xl group-hover:rounded-xl group-hover:bg-discord-blue-default group-hover:text-discord-shade-grayLight transition-all duration-300 ease-in-out cursor-pointer;
   }
 
   .sidebar-icon .notif-badge {
-    @apply absolute flex items-center justify-center -bottom-1 -right-1 px-1 h-6 bg-red-500 rounded-full leading-none font-bold text-xs border-4 border-discord-shade-darkest;
+    @apply absolute flex items-center justify-center -bottom-1 -right-1 px-1 h-6 bg-red-500 rounded-full leading-none font-bold text-xs border-4 border-discord-shade-darker;
   }
 
   .sidebar-tooltip {

@@ -3,6 +3,9 @@ module.exports = {
   mode: 'jit',
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: ['Whitney', 'ui-sans-serif'],
+    },
     extend: {
       colors: {
         discord: {
@@ -15,7 +18,8 @@ module.exports = {
             light: '#36393F',
           },
           shade: {
-            darkest: '#23272A',
+            darkest: '#18191C',
+            darker: '#23272A',
             dark: '#2C2F33',
             gray: '#99AAB5',
             grayLight: '#F6F6F6',
