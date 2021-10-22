@@ -1,7 +1,16 @@
-function SidebarIcon({ icon, notifCount, tooltipText = 'tooltip 💡' }) {
+function SidebarIcon({
+  icon,
+  notifCount,
+  tooltipText = 'tooltip 💡',
+  isActive,
+}) {
   return (
     <>
-      <div className="sidebar-icon relative">
+      <div
+        className={`${
+          isActive ? 'rounded-xl bg-discord-blue-default' : ''
+        } sidebar-icon relative`}
+      >
         {icon}
         {notifCount > 0 && <span className="notif-badge">{notifCount}</span>}
       </div>
