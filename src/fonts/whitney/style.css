@@ -3,14 +3,14 @@
 @font-face {
   font-family: 'Whitney';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   src: local('Whitney Medium'), url('whitneymedium.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Whitney';
   font-style: italic;
-  font-weight: 400;
+  font-weight: 500;
   src: local('Whitney Medium Italic'),
     url('whitneymediumitalic.woff') format('woff');
 }

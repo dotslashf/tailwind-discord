@@ -10,11 +10,11 @@
   }
 
   .sidebar-icon .notif-badge {
-    @apply absolute flex items-center justify-center -bottom-1 -right-1 px-1 h-6 bg-red-500 rounded-full leading-none font-bold text-xs border-4 border-discord-shade-darker;
+    @apply absolute flex items-center justify-center -bottom-1 -right-1 px-1 h-6 bg-red-500 rounded-full leading-none text-xs font-semibold border-4 border-discord-shade-darker;
   }
 
   .sidebar-tooltip {
-    @apply absolute px-3 py-2 ml-2 min-w-max left-[4.5rem] bg-discord-content-light shadow-md rounded-lg transition-all duration-100 scale-0 origin-left z-10;
+    @apply absolute px-3 py-2 ml-2 min-w-max left-[4.5rem] bg-discord-shade-darkest shadow-md rounded-lg transition-all duration-100 scale-0 origin-left z-10;
   }
 
   .sidebar-wrapper {
