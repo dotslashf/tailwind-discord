@@ -48,7 +48,7 @@ export default function Dropdown({ serverName }) {
               leaveTo="transform opacity-0 scale-95"
             >
               <Menu.Items className="absolute w-11/12 top-14 origin-top bg-discord-shade-darkest divide-y rounded-md shadow-md">
-                <div className="px-2 py-1.5">
+                <div className="px-2 py-2">
                   <Menu.Item>
                     {({ active }) => (
                       <button
