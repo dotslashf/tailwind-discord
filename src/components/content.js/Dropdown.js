@@ -21,7 +21,7 @@ export default function Dropdown({ serverName }) {
       >
         {({ open }) => (
           <>
-            <div className="relative w-full px-4 py-3 border-b-2 border-discord-shade-darker shadow-md">
+            <div className="relative w-full px-4 py-3 border-b-2 border-discord-shade-darker shadow-sm">
               <Menu.Button className="inline-flex w-full justify-between font-medium items-center text-discord-shade-grayLight">
                 <div>{serverName}</div>
                 {open ? (
