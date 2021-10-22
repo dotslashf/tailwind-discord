@@ -1,9 +1,9 @@
-import SidebarItem from './SidebarItem';
+import SidebarItem from './sidebar/SidebarItem';
 import { HiEmojiHappy, HiHand, HiLightningBolt, HiPlus } from 'react-icons/hi';
 
 function Sidebar() {
   return (
-    <div className="relative flex flex-col top-0 left-0 items-center w-16 bg-discord-shade-darkest text-white h-screen m-0">
+    <div className="relative flex flex-col top-0 left-0 items-center w-[4.5rem] bg-discord-shade-darkest text-white h-screen m-0 py-3">
       <SidebarItem
         icon={<HiEmojiHappy size="28" />}
         isPillShown={true}

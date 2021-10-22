@@ -1,9 +1,11 @@
+import Layout from './components/Content';
 import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="relative bg-white">
+    <div className="relative flex flex-row w-screen bg-white">
       <Sidebar />
+      <Layout />
     </div>
   );
 }

@@ -10,6 +10,10 @@ module.exports = {
             default: '#404EED',
             light: '#7289da',
           },
+          content: {
+            dark: '#2F3136',
+            light: '#36393F',
+          },
           shade: {
             darkest: '#23272A',
             dark: '#2C2F33',
