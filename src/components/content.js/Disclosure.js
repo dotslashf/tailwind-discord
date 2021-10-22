@@ -10,6 +10,7 @@ function DisclosureContent({ name, items }) {
         name={item.name}
         isActive={item.isActive}
         notifCount={item.notifCount}
+        isAudioChannel={item.isAudioChannel}
       />
     );
   });

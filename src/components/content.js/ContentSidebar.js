@@ -19,6 +19,21 @@ function ContentSidebar() {
         { name: 'Back End Stuff', isActive: false, notifCount: 2 },
       ],
     },
+    {
+      name: 'Voice Channels',
+      items: [
+        {
+          name: 'Radio 24/7',
+          isActive: false,
+          isAudioChannel: true,
+        },
+        {
+          name: 'Gaming',
+          isActive: false,
+          isAudioChannel: true,
+        },
+      ],
+    },
   ];
 
   const disclosureList = disclosureContent.map(dis => {

@@ -1,8 +1,13 @@
 import { Disclosure } from '@headlessui/react';
-import { HiHashtag, HiUserAdd } from 'react-icons/hi';
+import { HiHashtag, HiUserAdd, HiVolumeUp } from 'react-icons/hi';
 import { useState } from 'react';
 
-function DisclosureContentItem({ name, isActive, notifCount }) {
+function DisclosureContentItem({
+  name,
+  isActive,
+  notifCount = 0,
+  isAudioChannel = false,
+}) {
   let [isA, setisA] = useState(isActive);
 
   return (
@@ -23,11 +28,12 @@ function DisclosureContentItem({ name, isActive, notifCount }) {
         </div>
       )}
       <div className="flex w-full">
-        <div className="flex flex-row items-center">
-          <HiHashtag
-            size="20"
-            className="mr-1 text-discord-shade-gray font-normal text-opacity-30"
-          />
+        <div className="flex flex-row items-center text-discord-shade-gray font-normal text-opacity-70">
+          {isAudioChannel ? (
+            <HiVolumeUp size="20" className="mr-1" />
+          ) : (
+            <HiHashtag size="20" className="mr-1" />
+          )}
           {name}
         </div>
       </div>

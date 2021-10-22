@@ -28,6 +28,7 @@ function Sidebar() {
         tooltipText={s.tooltipText}
         isPillShown={s.isPillShown}
         isActive={s.isActive}
+        key={s.tooltipText}
       />
     );
   });
