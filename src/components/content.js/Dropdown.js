@@ -17,7 +17,7 @@ export default function Dropdown({ serverName }) {
     <>
       <Menu
         as="div"
-        className="flex text-left relative items-center justify-center"
+        className="flex text-left relative items-center justify-center z-50"
       >
         {({ open }) => (
           <>
