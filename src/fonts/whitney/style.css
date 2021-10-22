@@ -3,14 +3,14 @@
 @font-face {
   font-family: 'Whitney';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   src: local('Whitney Medium'), url('whitneymedium.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Whitney';
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   src: local('Whitney Medium Italic'),
     url('whitneymediumitalic.woff') format('woff');
 }
@@ -33,14 +33,14 @@
 @font-face {
   font-family: 'Whitney';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   src: local('Whitney Book Regular'), url('whitneybook.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Whitney';
   font-style: italic;
-  font-weight: 400;
+  font-weight: 200;
   src: local('Whitney Light Regular'), url('whitneylight.woff') format('woff');
 }
 
