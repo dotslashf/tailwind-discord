@@ -21,7 +21,7 @@ function DisclosureContentItem({ name, isActive, notifCount }) {
         <div className="flex flex-row items-center">
           <HiHashtag
             size="20"
-            className="mr-1 text-discord-shade-gray text-opacity-30"
+            className="mr-1 text-discord-shade-gray font-normal text-opacity-30"
           />
           {name}
         </div>

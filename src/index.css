@@ -14,7 +14,7 @@
   }
 
   .sidebar-tooltip {
-    @apply absolute px-3 py-2 ml-2 min-w-max left-[4.5rem] bg-discord-shade-darkest shadow-md rounded-lg transition-all duration-100 scale-0 origin-left z-10;
+    @apply absolute px-3 py-2 ml-2 min-w-max left-[4.5rem] bg-discord-shade-darkest shadow-md rounded-lg transition-all duration-100 scale-0 origin-left z-30;
   }
 
   .sidebar-wrapper {
