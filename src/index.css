@@ -21,7 +21,7 @@
     @apply inline-flex w-full;
   }
 
-  .sidebar-wrapper .sidebar-pill {
+  .sidebar-pill {
     @apply flex flex-col justify-center;
   }
 

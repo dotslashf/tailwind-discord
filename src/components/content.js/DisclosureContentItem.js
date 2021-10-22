@@ -17,6 +17,11 @@ function DisclosureContentItem({ name, isActive, notifCount }) {
           : 'text-discord-shade-gray text-opacity-60')
       }
     >
+      {notifCount > 0 && (
+        <div className="absolute sidebar-pill left-0">
+          <span className="pill" />
+        </div>
+      )}
       <div className="flex w-full">
         <div className="flex flex-row items-center">
           <HiHashtag
