@@ -38,9 +38,9 @@ function DisclosureContentItem({
         </div>
       </div>
       <div className="flex flex-row items-center">
-        {(isActive || isA) && <HiUserAdd className="" />}
+        {(isActive || isA) && <HiUserAdd className="mr-1" />}
         {notifCount > 0 && (
-          <span className="ml-1 bg-red-500 px-[6px] py-[1px] text-white text-xs rounded-full">
+          <span className="ml-1 bg-red-500 px-[5px] py-[0.5px] text-white text-xs font-semibold rounded-full">
             {notifCount}
           </span>
         )}

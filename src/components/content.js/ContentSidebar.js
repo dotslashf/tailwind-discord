@@ -1,5 +1,6 @@
 import Dropdown from './Dropdown';
 import DisclosureContent from './Disclosure';
+import ContentFooter from './ContentFooter';
 
 function ContentSidebar() {
   const disclosureContent = [
@@ -43,9 +44,10 @@ function ContentSidebar() {
   });
 
   return (
-    <div className="relative">
+    <div className="relative h-screen">
       <Dropdown serverName="Server Gabut" />
       {disclosureList}
+      <ContentFooter />
     </div>
   );
 }

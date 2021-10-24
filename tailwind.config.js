@@ -22,7 +22,7 @@ module.exports = {
             darkest: '#18191C',
             darker: '#23272A',
             dark: '#2C2F33',
-            gray: '#99AAB5',
+            gray: '#B9BBBE',
             grayLight: '#F6F6F6',
           },
         },
